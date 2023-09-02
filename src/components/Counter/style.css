@@ -1,0 +1,33 @@
+.counter-div{
+    display: flex;
+    width: 85px;
+    align-items: center;
+}
+
+.increment{
+    border-radius: 50%;
+    border: none;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    color: white;
+    background: red;
+    cursor: pointer;
+}
+
+.decrement{
+    border-radius: 50%;
+    border: none;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    color: white;
+    background: grey;
+    cursor: pointer;
+}
+
+.counter-div p{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}

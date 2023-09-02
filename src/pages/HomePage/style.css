@@ -1,0 +1,16 @@
+.logo{
+    width: 152px;
+    margin-bottom: 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header h3{
+    font-size: 26px;
+    color: red;
+    font-family: sans-serif;
+}
