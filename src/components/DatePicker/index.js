@@ -50,6 +50,7 @@ function DateSelector({ onValueChange }) {
         <div ref={dateRangeInputRef}>
           <input
             type="text"
+            className='react-date'
             value={
               startDate && endDate
                 ? `${startDate.toDateString()} - ${endDate.toDateString()}`
@@ -72,12 +73,13 @@ function DateSelector({ onValueChange }) {
           )}
         </div>
       </div> :
-    <div>
+    <div className='root'>
     <DatePicker
       selected={selectedDate}
       onChange={handleSingleDateChange}
       dateFormat="yyyy-MM-dd"
       placeholderText="Select a date"
+      className='react-date'
     />
   </div>}
     </div>

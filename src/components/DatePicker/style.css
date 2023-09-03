@@ -1,0 +1,5 @@
+.react-date{
+    @media(max-width: 556px){
+        width: 100%
+    }
+}
